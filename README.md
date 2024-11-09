@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/your-username/Cricket-Alerts.git
+git clone https://github.com/Spandana-hp68/Cricket-Alerts.git
 
 
 2. Navigate into the project directory:
