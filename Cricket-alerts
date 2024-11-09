@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cricket Alerts</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+  }
+  #alert-box {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .score-alert {
+    background-color: #4caf50;
+    color: white;
+  }
+  .wicket-alert {
+    background-color: #f44336;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<h2>Live Cricket Alerts</h2>
+<div id="alert-box">
+  <h3>Get the latest cricket alerts!</h3>
+  <button class="score-alert" onclick="scoreUpdate()">New Score Alert</button>
+  <button class="wicket-alert" onclick="wicketUpdate()">Wicket Alert</button>
+  <p id="alert-message"></p>
+</div>
+
+<script>
+  // Function to simulate a score update alert
+  function scoreUpdate() {
+    const team = "India";
+    const runs = Math.floor(Math.random() * 100) + 1; // Random score between 1 and 100
+    const overs = Math.floor(Math.random() * 20) + 1; // Random over between 1 and 20
+    const message = `${team} scored ${runs} runs in ${overs} overs!`;
+    displayAlert(message);
+  }
+
+  // Function to simulate a wicket update alert
+  function wicketUpdate() {
+    const bowler = "Jasprit Bumrah";
+    const batsman = "Steve Smith";
+    const message = `WICKET! ${bowler} dismissed ${batsman}!`;
+    displayAlert(message);
+  }
+
+  // Function to display the alert message
+  function displayAlert(message) {
+    const alertBox = document.getElementById("alert-message");
+    alertBox.textContent = message;
+    alertBox.style.fontWeight = "bold";
+    alertBox.style.color = "#000";
+  }
+</script>
+
+</body>
+</html>
