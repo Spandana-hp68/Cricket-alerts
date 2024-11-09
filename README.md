@@ -40,7 +40,7 @@ git clone https://github.com/Spandana-hp68/Cricket-Alerts.git
 
 2. Navigate into the project directory:
 
-cd Cricket-Alerts
+cd Cricket-Alerts.
 
 
 3. Open the index.html file in your browser to view the project.
