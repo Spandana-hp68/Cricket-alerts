@@ -52,3 +52,13 @@ This project is open-source and available under the MIT License.
 
 
 ---
+
+NOTE :::::
+
+To make the scores real, you would need to integrate your project with an API that provides live cricket data. There are several cricket APIs available that you can use to fetch real-time match scores and events, such as:
+
+CricAPI: Provides live cricket scores and other cricket-related data.
+
+SportsRadar: Offers comprehensive sports data, including cricket.
+
+API Cricket: Another API for live cricket data.
