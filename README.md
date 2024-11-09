@@ -44,14 +44,7 @@ cd Cricket-Alerts.
 
 
 3. Open the index.html file in your browser to view the project.
-
-
-License
-
-This project is open-source and available under the MIT License.
-
-
----
+--
 
 NOTE :::::
 
