@@ -1,6 +1,6 @@
 Cricket Alerts
 
-A simple web-based cricket alert system that provides real-time updates on scores and wickets. This project simulates live cricket match updates, offering notifications about scores and wickets taken during the game.
+A simple web-based cricket alert system that provides updates on scores and wickets. This project simulatescricket match updates, offering notifications about scores and wickets taken during the game.
 
 Features
 
